@@ -1,0 +1,13 @@
+#SPDX-License-Identifier: MIT-0
+---
+# tasks file for nginx
+- name: Copy index.html
+  copy:
+    src: index.html
+    dest: /home/ubuntu/index.html
+
+- name: Run Nginx container
+  command: >
+    docker run -d -p 80:80
+    -v /home/ubuntu/index.html:/usr/share/nginx/html/index.html
+    nginx
