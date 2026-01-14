@@ -12,7 +12,7 @@ This project demonstrates configuration management and automation by preparing a
 - Linux (Ubuntu)
 
 ## Folder Structure
---- bash
+```bash
 ansible-webserver-project/
 ├── inventory
 ├── playbook.yml
