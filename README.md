@@ -30,6 +30,7 @@ ansible-webserver-project/
 │   └── web-page.png
 └── README.md
 
+```
 ---
 
 ## Prerequisites
